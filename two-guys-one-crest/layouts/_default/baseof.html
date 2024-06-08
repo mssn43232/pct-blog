@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .Site.Title }}</title>
+    {{ $styles := resources.Get "css/main.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+</head>
+<body>
+    <header>
+        <h1>{{ .Site.Title }}</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ "/" | relURL }}">Home</a></li>
+                <span class="nav-divider">|</span>
+                {{ $latest := first 1 (where .Site.RegularPages "Section" "posts") }}
+                {{ if $latest }}
+                {{ with index $latest 0 }}
+                <li><a href="{{ .Permalink }}">Latest Post</a></li>
+                {{ end }}
+                {{ end }}
+                <span class="nav-divider" >|</span>
+                <li><a href="{{ "/about/" | relURL }}">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+</body>
+</html>

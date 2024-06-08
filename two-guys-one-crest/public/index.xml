@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Two Guys, One Crest</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Two Guys, One Crest</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Jun 2024 18:30:25 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prepping for the trip</title>
+      <link>http://localhost:1313/posts/2024-06-07-copy-2/</link>
+      <pubDate>Fri, 07 Jun 2024 18:30:25 -0500</pubDate>
+      <guid>http://localhost:1313/posts/2024-06-07-copy-2/</guid>
+      <description>I&amp;rsquo;ve spent the last few days making some final prepartaions. Gathering all of my gear, doing some last minute organizing, and finally setting up this blog. The&#xA;Testing</description>
+    </item>
+    <item>
+      <title>Prepping for the trip</title>
+      <link>http://localhost:1313/posts/2024-06-07-copy-3/</link>
+      <pubDate>Fri, 07 Jun 2024 18:30:25 -0500</pubDate>
+      <guid>http://localhost:1313/posts/2024-06-07-copy-3/</guid>
+      <description>I&amp;rsquo;ve spent the last few days making some final prepartaions. Gathering all of my gear, doing some last minute organizing, and finally setting up this blog. The&#xA;Testing</description>
+    </item>
+    <item>
+      <title>Prepping for the trip</title>
+      <link>http://localhost:1313/posts/2024-06-07-copy-4/</link>
+      <pubDate>Fri, 07 Jun 2024 18:30:25 -0500</pubDate>
+      <guid>http://localhost:1313/posts/2024-06-07-copy-4/</guid>
+      <description>I&amp;rsquo;ve spent the last few days making some final prepartaions. Gathering all of my gear, doing some last minute organizing, and finally setting up this blog. The&#xA;Testing</description>
+    </item>
+    <item>
+      <title>Prepping for the trip</title>
+      <link>http://localhost:1313/posts/2024-06-07-copy/</link>
+      <pubDate>Fri, 07 Jun 2024 18:30:25 -0500</pubDate>
+      <guid>http://localhost:1313/posts/2024-06-07-copy/</guid>
+      <description>I&amp;rsquo;ve spent the last few days making some final prepartaions. Gathering all of my gear, doing some last minute organizing, and finally setting up this blog. The&#xA;Testing</description>
+    </item>
+    <item>
+      <title>Prepping for the trip</title>
+      <link>http://localhost:1313/posts/2024-06-07/</link>
+      <pubDate>Fri, 07 Jun 2024 18:30:25 -0500</pubDate>
+      <guid>http://localhost:1313/posts/2024-06-07/</guid>
+      <description>I&amp;rsquo;ve spent the last few days making some final prepartaions. Gathering all of my gear, doing some last minute organizing, and finally setting up this blog. The&#xA;Testing</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>This is the About page content.</description>
+    </item>
+  </channel>
+</rss>
