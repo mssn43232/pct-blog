@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ "/css/glide.core.min.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "/css/glide.theme.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/glide.core.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/glide.theme.min.css" | relURL }}">
     <style>
         .glide__slide img {
             display: block;
@@ -24,7 +24,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="{{ "/" | relURL }}">Home</a></li>
+                <li><a href="{{ "" | absURL }}">Home</a></li>                
                 <span class="nav-divider">|</span>
                 {{ $latest := first 1 (where .Site.RegularPages "Section" "posts") }}
                 {{ if $latest }}
@@ -33,9 +33,9 @@
                 {{ end }}
                 {{ end }}
                 <span class="nav-divider">|</span>
-                <li><a href="{{ "/photos/" | relURL }}">Photos</a></li>
+                <li><a href="{{ "photos/" | relURL }}">Photos</a></li>
                 <span class="nav-divider">|</span>
-                <li><a href="{{ "/about/" | relURL }}">About</a></li>
+                <li><a href="{{ "about/" | relURL }}">About</a></li>
             </ul>
         </nav>
     </header>
@@ -43,7 +43,7 @@
         {{ block "main" . }}{{ end }}
         <footer>&copy; 2024 Mark Smith</footer>
     </main>
-    <script src="{{ "/js/glide.min.js" | relURL }}"></script>
+    <script src="{{ "js/glide.min.js" | relURL }}"></script>
     {{ block "scripts" . }}{{ end }}
 </body>
 </html>

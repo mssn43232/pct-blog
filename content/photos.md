@@ -10,6 +10,6 @@ images:
   - src: "PXL_20230702_205240799.jpg"
     description: "This is an image I added to test the photo carosel. It was taken in WA though."
 ---
----
 
-Here are all of my photos so far. You can hover over them to get a little description of what it is.
+This page contains every photo currently on the site. You can look through them by clicking the next or prev buttons on the left and right of the image.
+___

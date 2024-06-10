@@ -1,13 +1,14 @@
 {{ define "main" }}
 <article>
-    <h1>{{ .Title }}</h1>
+    <h2>{{ .Title }}</h2>
+    <p>{{ .Content }}</p>
     <div class="glide">
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
                 {{ range .Params.images }}
                 <li class="glide__slide">
                     <p>{{ .description }}</p>
-                    <img src="{{ "/images/" | relURL }}{{ .src }}" alt="{{ .description }}">
+                    <img src="{{ "images/" | relURL }}{{ .src }}" alt="{{ .description }}">
                 </li>
                 {{ end }}
             </ul>
