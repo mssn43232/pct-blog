@@ -3,7 +3,7 @@
 <ul>
     {{ range .Pages }}
     <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .City }}
+        <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Params.City }}
     </li>
     {{ end }}
 </ul>

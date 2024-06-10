@@ -1,9 +1,9 @@
 {{ define "main" }}
-<h3>Posts</h3>
+<h2>Posts</h2>
 <ul>
     {{ range where .Site.RegularPages "Section" "posts" }}
     <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Params.City }}
+        <a href="{{ .Permalink }}">{{ .Date | time.Format "Monday January, 2, 2006" }}</a> - {{ .Params.City }}
     </li>
     {{ end }}
 </ul>

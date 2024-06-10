@@ -50,5 +50,12 @@
       <guid>http://localhost:1313/about/</guid>
       <description>This is the About page content.</description>
     </item>
+    <item>
+      <title>Photo Gallery</title>
+      <link>http://localhost:1313/photos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/</guid>
+      <description>Here are all of my photos so far. You can hover over them to get a little description of what it is.</description>
+    </item>
   </channel>
 </rss>

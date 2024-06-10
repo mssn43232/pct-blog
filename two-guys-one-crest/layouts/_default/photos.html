@@ -1,0 +1,35 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                {{ range .Params.images }}
+                <li class="glide__slide">
+                    <p>{{ .description }}</p>
+                    <img src="{{ "/images/" | relURL }}{{ .src }}" alt="{{ .description }}">
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+        </div>
+    </div>
+</article>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        if (document.querySelector('.glide')) {
+            new Glide('.glide', {
+                type: 'carousel',
+                startAt: 0,
+                perView: 1
+            }).mount();
+        }
+    });
+</script>
+{{ end }}
