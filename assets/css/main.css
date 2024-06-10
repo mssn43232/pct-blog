@@ -69,3 +69,14 @@ footer {
     margin-top: 100px;
     margin-bottom: 30px;
 }
+@media only screen and (max-width: 768px) {
+    body {
+      margin: 0 2%;
+      padding: 0;
+    }
+  
+    .container {
+      margin: 0 auto;
+      padding: 0 15px; /* Add some padding for inner content if needed */
+    }
+  }
