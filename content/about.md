@@ -4,7 +4,7 @@ layout: "about"
 draft: "false"
 ---
 
-![Scott and I](public/images/about.jpg)
+![Scott and I](/images/about.jpg)
 
 This is a simple blog covering the journey of me, Mark, and my brother, Scott, as we hike the Pacific Crest Trail (PCT). It's something I've thought about doing for a long time, and with both of us graduating college recently, we figured now is the perfect time to embark on this adventure.
 
