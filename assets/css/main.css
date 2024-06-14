@@ -69,6 +69,13 @@ footer {
     margin-top: 100px;
     margin-bottom: 30px;
 }
+
+p:has(img) {
+    text-align: center;
+}
+img {
+    width: 72%;
+}
 @media only screen and (max-width: 768px) {
     body {
       margin: 0 2%;
