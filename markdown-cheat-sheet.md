@@ -121,3 +121,5 @@ X^2^
 
 
 ## Hugo useful commands
+
+exiftool -all= *.jpg
