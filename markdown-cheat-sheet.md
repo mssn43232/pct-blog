@@ -122,4 +122,4 @@ X^2^
 
 ## Hugo useful commands
 
-exiftool -all= *.jpg
+exiftool -all= *.jpg -overwrite_original
